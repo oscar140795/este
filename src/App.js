@@ -16,7 +16,11 @@ class CarItem extends Component{
       <li>
         <p><strong>Nombre: </strong>{car.name}</p>
         <p><strong>Marca: </strong>{car.company}</p>
+        <li>
+        
       </li>
+      </li>
+      
     )
 }}
 
