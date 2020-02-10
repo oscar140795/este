@@ -11,7 +11,7 @@ import Form from './sections/conditionals'
 class CarItem extends Component{
   render(){
     const {car} = this.props
-    
+    /** */
     return( 
       <li>
         <p><strong>Nombre: </strong>{car.name}</p>
@@ -19,6 +19,19 @@ class CarItem extends Component{
       </li>
     )
 }}
+
+class CarItem2 extends Component{
+  render(){
+    const {car} = this.props
+    /** */
+    return( 
+      <li>
+        <p><strong>Nombre: </strong>{car.name}</p>
+        <p><strong>Marca: </strong>{car.company}</p>
+      </li>
+    )
+}}
+
 
 class Contador extends Component {
   constructor(props) {
